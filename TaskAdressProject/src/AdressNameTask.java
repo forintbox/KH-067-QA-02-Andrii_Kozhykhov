@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AdressPJ {
+public class AdressNameTask {
     public static void main(String[] args) {
         String name, address;
         Scanner sc = new Scanner(System.in);
@@ -9,6 +9,5 @@ public class AdressPJ {
         System.out.println("Where are you live?, " + name);
         address = sc.nextLine();
         System.out.print("OK, you are:\n " + name + " from " + address);
-
     }
 }

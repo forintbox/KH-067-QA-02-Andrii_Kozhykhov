@@ -14,9 +14,6 @@
 .idea
 *.iml
 /out/
-**/.idea
-**/out
-**/*.iml
 
 # Package Files #
 *.jar
